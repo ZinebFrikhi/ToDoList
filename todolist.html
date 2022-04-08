@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>To Do List</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./todolist.css" type="text/css" media="screen" charset="utf-8">   
+    <script src="https://kit.fontawesome.com/367fbbd1d6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Add new task</label>
+        <input id="new-task" type="text">
+        <button><i class="fa-solid fa-plus"></i></button>
+      </p>
+      
+      <h3>My ToDo-List</h3>
+      <ul id="tasknotdone">
+        <li>
+          <input type="checkbox">
+          <label>Authentification with JQuery</label>
+          <input type="text">
+          <button class="supprimer"><i class='fa-solid fa-trash-can'></i></button>
+        </li>
+        <li id="tasknotdone">
+          <input type="checkbox">
+          <label>Validate Json</label>
+          <input type="text">
+          <button class="supprimer"><i class='fa-solid fa-trash-can'></i></button>
+        </li>
+      </ul>
+      
+      <h3>Completed Tasks</h3>
+      <ul id="taskdone">
+        <li>
+          <input type="checkbox" checked="">
+          <label>Name Validation</label>
+          <input type="text">
+          <button class="supprimer"><i class='fa-solid fa-trash-can'></i></button>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="todolist.js"></script>
+  
+
+</html>
